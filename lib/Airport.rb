@@ -35,7 +35,7 @@ class Airport
 
   def takeOff(plane)
     if @weather ==  "sunny"
-      fail 'No bikes available' if @planes.empty?
+      fail 'No planes available' if @planes.empty?
       @planes.pop
 
     elsif @weather == "stormy"

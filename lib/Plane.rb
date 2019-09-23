@@ -5,7 +5,7 @@ class Plane
     @airborne = "Yes"
   end
 
-  
+
   def landInstruct(airport)
     airport.landPlane(self)
   end
